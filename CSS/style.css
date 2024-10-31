@@ -1,0 +1,345 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.5s ease-in-out;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+button {
+  background-color: #932129;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  margin-top: 25px;
+}
+
+hr {
+  margin-top: 5px;
+  width: 100px;
+  height: 4px;
+  background-color: red;
+  border-radius: 100px;
+  border: none;
+}
+
+span {
+  color: maroon;
+}
+
+p {
+  font-size: 10px;
+  color: #fff;
+}
+
+.label {
+  display: flex;
+  gap: 10px;
+}
+
+nav {
+  margin-right: 100px;
+  margin-left: 100px;
+  height: 10vh;
+}
+nav .div {
+  display: flex;
+  gap: 310px;
+}
+nav .div .div2 {
+  display: flex;
+  gap: 50px;
+}
+nav .div .div2 ul {
+  display: flex;
+  gap: 60px;
+  list-style-type: none;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+nav .div .div2 ul li {
+  font-size: 14px;
+  list-style-type: none;
+  text-decoration: none;
+}
+nav .div .div2 ul li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+nav .div .div2 button {
+  background-color: maroon;
+  padding: 10px 20px;
+  padding-top: -10px;
+  padding-bottom: -10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #fff;
+  border: none;
+}
+
+#hero {
+  background-image: url(/images/Header\ Section.png);
+  background-position: center;
+  background-size: cover;
+  height: 98vh;
+  width: 97vw;
+  padding: 100px;
+  color: white;
+}
+#hero h1 {
+  font-size: 40px;
+}
+#hero p {
+  font-size: 20px;
+}
+#hero button {
+  margin-top: 30px;
+}
+#hero .under {
+  display: flex;
+  gap: 30px;
+  margin-top: 120px;
+}
+#hero .under p {
+  font-size: 16px;
+}
+
+#mission {
+  padding: 100px;
+  display: block;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+}
+#mission .overall {
+  display: flex;
+  gap: 160px;
+}
+#mission .overall .part1 p {
+  margin-top: 15px;
+  color: #000;
+}
+#mission .overall .part1 .label {
+  display: flex;
+  gap: 20px;
+}
+#mission .overall .part1 hr {
+  margin-top: 5px;
+  width: 100px;
+  height: 4px;
+  background-color: red;
+  border-radius: 100px;
+  border: none;
+}
+#mission .overall .part2 .first {
+  display: flex;
+}
+#mission .overall .part2 .second {
+  position: relative;
+  width: 100%;
+}
+#mission .overall .part2 .second .img3 {
+  position: absolute;
+  top: 20px;
+}
+#mission .overall .part2 .second .img4 {
+  padding-left: 120px;
+}
+
+#donations {
+  padding: 100px;
+  background-color: #F1D2C0;
+  height: 110vh;
+  width: auto;
+}
+#donations .text-image {
+  display: flex;
+  gap: 140px;
+}
+#donations .part1 h1 {
+  font-size: 28px;
+}
+#donations .part1 p {
+  padding-top: 40px;
+  font-size: 14px;
+  color: #000;
+}
+#donations .per .row1 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  padding-top: 40px;
+}
+#donations .per .row2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  padding-top: 40px;
+}
+
+#our-supporters {
+  padding: 100px;
+}
+#our-supporters .img {
+  padding-top: 20px;
+}
+
+#duties {
+  padding: 100px;
+  display: flex;
+}
+#duties .par1 {
+  width: 100%;
+}
+#duties .par1 button {
+  margin-top: 60px;
+  margin-left: 80px;
+}
+#duties .par1 .wrapper .card {
+  display: flex;
+  gap: 10px;
+}
+#duties .par1 .wrapper .card p {
+  color: black;
+  font-size: small;
+}
+#duties .par1 .wrapper .first {
+  display: flex;
+  gap: 60px;
+}
+#duties .par1 .wrapper .sec {
+  padding-top: 100px;
+  display: flex;
+  gap: 60px;
+}
+#duties .par2 {
+  width: 100%;
+}
+
+#projects {
+  padding: 100px;
+}
+#projects p {
+  color: black;
+  font-size: small;
+}
+#projects .overall {
+  display: flex;
+  gap: 20px;
+}
+#projects .overall .part1 {
+  width: 100%;
+}
+#projects .overall .part1 button {
+  margin-top: 50px;
+}
+#projects .overall .part2 {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+}
+#projects .overall .part2 .card {
+  border: maroon 2px solid;
+  text-align: center;
+  padding: 10px;
+}
+#projects .overall .part2 .card button {
+  margin-top: 20px;
+  border-radius: 5px;
+}
+#projects .overall .part2 .card:hover {
+  background-color: #942129;
+  color: #fff;
+}
+#projects .overall .part2 .card:hover p {
+  color: #fff;
+}
+#projects .overall .part2 .card:hover button {
+  background-color: #F1D2C0;
+}
+#projects .overall .part2 .card:nth-child(2) {
+  margin-top: 30px;
+}
+#projects .overall .part2 .other {
+  margin-top: 120px;
+}
+
+#join {
+  padding: 100px;
+  text-align: center;
+}
+#join .img {
+  display: flex;
+  gap: 20px;
+}
+#join button {
+  margin-top: 40px;
+}
+
+#payment {
+  background-color: #F1D2C0;
+  padding: 100px;
+  display: flex;
+  gap: 50px;
+}
+#payment .title p {
+  color: black;
+  font-size: small;
+}
+#payment .part2 {
+  width: 100%;
+}
+#payment .part2 input {
+  padding: 20px 30px;
+  border: none;
+  border-bottom: 1px solid;
+  border-color: #932129;
+  margin-top: 5px;
+}
+
+#sponsors {
+  padding: 100px;
+}
+
+#footer {
+  background-color: maroon;
+  padding: 100px;
+  display: block;
+}
+#footer h5 {
+  color: #fff;
+}
+#footer .overal {
+  display: flex;
+  gap: 40px;
+}
+#footer .overal .part5 .stuff {
+  margin-top: 20px;
+  display: flex;
+}
+#footer .overal .part5 h3 {
+  margin-top: 15px;
+  color: #fff;
+}
+#footer .overal .part5 .socials {
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+}
+#footer .overal .part5 button {
+  margin-top: 0;
+}
+#footer .last-footer {
+  margin-top: 30px;
+  text-align: center;
+  color: #fff;
+}
+#footer .last-footer hr {
+  width: auto;
+  background-color: #fff;
+  height: 1px;
+}/*# sourceMappingURL=style.css.map */
